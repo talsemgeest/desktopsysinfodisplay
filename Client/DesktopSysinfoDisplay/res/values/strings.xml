@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Desktop Sysinfo Display</string>
+    <string name="title_section1">System Monitor</string>
+    <string name="title_section2">Demo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="ip">IP</string>
+    <string name="port">Port</string>
+    <string name="connect">Connect!</string>
+    <string name="cpu">CPU</string>
+    <string name="ram">RAM</string>
+    <string name="connectError">Error connecting to host.</string>
+    <string name="title_activity_sysinfo_graph">System info</string>
+    <string name="empty_percent">%</string>
+
+</resources>

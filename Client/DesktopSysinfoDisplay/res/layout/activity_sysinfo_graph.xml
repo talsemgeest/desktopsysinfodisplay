@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+    <TextView 
+        android:id="@+id/cpu_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/cpu"
+        android:textSize="20sp"/>
+    
+    <TextView 
+        android:id="@+id/cpu_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="@string/empty_percent"/>
+    
+    <ProgressBar 
+        android:id="@+id/cpu_graph"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="0"
+        android:indeterminateOnly="false"
+        />
+    
+    <TextView 
+        android:id="@+id/mem_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/ram"
+        android:textSize="20sp"/>
+    
+    <TextView 
+        android:id="@+id/mem_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="@string/empty_percent"/>
+    
+    <ProgressBar 
+        android:id="@+id/mem_graph"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="0"
+        android:indeterminateOnly="false"
+        />
+    
+    <TextView 
+        android:id="@+id/connect_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/connectError"
+        android:visibility="invisible"
+        android:textColor="@android:color/holo_red_dark"/>
+    
+
+</LinearLayout>
